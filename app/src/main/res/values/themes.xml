@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    // <!-- Base application theme. -->
+    //<style name="Theme.MyApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+    // <!-- Primary brand color. -->
+    //<item name="colorPrimary">@color/purple_500</item>
+    //<item name="colorPrimaryDark">@color/purple_700</item>
+    // <item name="colorAccent">@color/teal_200</item>
+    //</style>
+    <style name="Base.Widget.AppCompat.Button.Small." parent= "Theme.MaterialComponents.DayNight">
+        <item name = "android:textSize">23sp</item>
+    </style>
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+        <item name="colorOnSurface">#388E3C</item>
+        <item name="colorOnBackground">#9C27B0</item>
+    </style>
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">#AFB42B</item>
+        <item name="colorOnBackground">#9C27B0</item>
+    </style>
+//</resources>

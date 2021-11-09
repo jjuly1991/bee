@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+buildscript {
+   repositories {
+       google()
+       mavenCentral()
+    }
+    dependencies {
+       classpath "com.android.tools.build:gradle:7.0.3"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20"
+        classpath fileTree(dir: 'libs', include: ['*.jar'])
+        classpath 'com.android.support:appcompat-v7:28.0.0'
+        classpath 'com.android.support:design:28.0.0'
+        classpath 'com.android.support:recyclerview-v7:28.0.0'
+        classpath 'com.android.support:palette-v7:28.0.0'
+        classpath 'com.android.support:cardview-v7:28.0.0'
+        // ...
+
+        // ...
+        }
+
+
+   }
+     
+
+

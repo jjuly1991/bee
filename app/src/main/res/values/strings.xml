@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="newAplicatiom">newApplication</string>
+    <string name="new_Aplicatiom">newApplication</string>
+    <string name="nevermind">Nevermind</string>
+    <string name="are_you_ready">Are you ready?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="label_1">label_1</string>
+    <string name="label_2">label_2</string>
+    <string name="label_3">label_3</string>
+    <string name="label_4">label_4</string>
+    <string name="label_5">label_5</string>
+    <string name="november">November</string>
+    <string name="october">October</string>
+    <string name="september">September</string>
+    <string name="background_app">background_app</string>
+</resources>
